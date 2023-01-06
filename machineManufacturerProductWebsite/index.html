@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="./assets/script/script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="#" alt="" />
+        <h1>Online Fair 2023</h1>
+        <nav>
+          <ul>
+            <li>TOP</li>
+            <li>CONCEPT MOVIE</li>
+            <li>PRODUCT</li>
+            <li>CONTACT</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="top">
+        <h2>Outline</h2>
+        <table>
+          <tr>
+            <td>Title</td>
+            <td>GLORY Total Solution Fair 2021</td>
+          </tr>
+          <tr>
+            <td>Date</td>
+            <td>2023/02/01</td>
+          </tr>
+          <tr>
+            <td>Organizers</td>
+            <td>Cornerstone International College of Canada</td>
+          </tr>
+        </table>
+      </section>
+      <section id="concept movie">
+        <h2>Concept Movie</h2>
+        <video controls>
+          <!-- You can paste mp4 here -->
+          <source src="/assets/videos/Robot - 3975.mp4" type="video/mp4" />
+        </video>
+      </section>
+      <section id="product">
+        <h2>Product</h2>
+        <div>
+          <img src="#" alt="" />
+          <p><a href="#">Wave</a></p>
+        </div>
+      </section>
+      <section id="contact">
+        <h2>Contact</h2>
+        <form action="#">
+          <label for="">First Name</label>
+          <input type="text" onchange="setFirstName(event)" />
+          <label for="">Last Name</label>
+          <input type="text" onchange="setLastName(event)" />
+          <label for="">Email</label>
+          <input type="email" onchange="setEmail(event)" />
+          <label for=""></label>
+          <input type="tel" onchange="setTel(event)" />
+          <button onchange="setSubmit()">Send Your Message</button>
+        </form>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
