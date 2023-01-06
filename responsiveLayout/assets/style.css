@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "ABeeZee", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Questrial", sans-serif;
+  background-color: rgb(51, 51, 51);
+  color: #ffff;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  margin: 5rem 0 2rem;
+}
+h2 {
+  font-size: 2rem;
+  margin: 5rem 0 2rem;
+  padding-left: 1rem;
+  text-align: center;
+}
+li {
+  text-align: center;
+  margin: 0 2rem;
+  padding: 0.5rem;
+  list-style: none;
+  color: #ffff;
+}
+
+li:hover {
+  background-color: rgb(98, 97, 97);
+  color: rgb(255, 119, 0);
+}
+.main-container {
+  background-image: url(camp.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+  position: relative;
+}
+
+.main-container h1 {
+  color: rgb(125, 125, 125);
+  font-size: 3.5rem;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+}
+.main-container span {
+  color: rgb(255, 119, 0);
+}
+.main-container p {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -55%);
+}
+.main-container button {
+  padding: 0.5rem;
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  background-color: rgb(98, 97, 97);
+  color: #ffff;
+}
+
+.secondry-container {
+  margin: 3em 1rem 10rem;
+}
+
+.secondry-container h3 {
+  padding: 3rem 0 1rem;
+  text-align: center;
+  font-size: 2rem;
+}
+.secondry-container span {
+  color: rgb(255, 119, 0);
+}
+
+.secondry-container p {
+  text-align: center;
+  padding: 1rem 3rem 5rem;
+}
+.secondry-container button {
+  padding: 0.5rem;
+  display: block;
+  margin: 0 auto;
+}
+.location-campfire-container {
+  background-color: #ffff;
+}
+.tent-container {
+  background-color: rgb(255, 119, 0);
+}
+h4 {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+.tertiary-container {
+  color: black;
+  text-align: center;
+}
+.tertiary-container i {
+  font-size: 40px;
+  color: rgb(51, 51, 51);
+  margin: 3rem 0;
+}
+
+.p-black {
+  padding-bottom: 5rem;
+}
+footer p {
+  text-align: center;
+  padding: 1em 0;
+}
+@media only screen and (max-width: 600px) {
+  header {
+    flex-direction: column;
+  }
+  h2 {
+    padding-left: 0;
+  }
+  ul {
+    flex-direction: column;
+    margin-top: 0;
+  }
+
+  .main-container {
+    height: 400px;
+  }
+  .main-container h1 {
+    font-size: 2em;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+  }
+  .main-container p {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+  }
+  .main-container button {
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -85%);
+  }
+  .secondry-container {
+    margin-top: 0;
+  }
+  .secondry-container h3 {
+    font-size: 1.5rem;
+  }
+}
